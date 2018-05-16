@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import AddingSvgWithD3 from './pages/AddingSvgWithD3.vue'
 import DataJoins from './pages/DataJoins.vue'
+import LoadingExternalData from './pages/LoadingExternalData.vue'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/data-joins',
       name: 'DataJoins',
       component: DataJoins
+    },
+    {
+      path: '/loading-external-data',
+      name: 'LoadingExternalData',
+      component: LoadingExternalData
     }
   ]
 })

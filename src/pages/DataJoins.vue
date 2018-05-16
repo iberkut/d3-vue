@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="data-joins">
   </div>
 </template>
 
@@ -8,7 +8,7 @@
     mounted() {
       const data = [25, 20, 10, 12, 15]
 
-      const svg = d3.select('.about').append('svg')
+      const svg = d3.select('.data-joins').append('svg')
         .attr('width', 400)
         .attr('height', 400)
 
