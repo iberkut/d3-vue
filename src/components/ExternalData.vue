@@ -1,6 +1,4 @@
 <template>
-  <div class="external-data">
-  </div>
 </template>
 
 <script>
@@ -11,7 +9,7 @@
           d.age = +d.age
         })
 
-        const svg = d3.select('.external-data').append('svg')
+        const svg = d3.select(this.$el).append('svg')
           .attr('width', 400)
           .attr('height', 400)
 

@@ -1,12 +1,10 @@
 <template>
-  <div class="adding-svg-with-d3">
-  </div>
 </template>
 
 <script>
   export default {
     mounted() {
-      const svg = d3.select('.adding-svg-with-d3').append('svg')
+      const svg = d3.select(this.$el).append('svg')
         .attr('width', 400)
         .attr('height', 400)
 

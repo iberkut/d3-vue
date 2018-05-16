@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Adding Svg With D3</router-link> |
-      <router-link to="/data-joins">Data Joins</router-link> |
-      <router-link to="/loading-external-data">Loading External Data</router-link>
+      <router-link to="/">Getting Started</router-link> |
+      <router-link to="/scales-and-axes">Scales and Axes</router-link>
     </div>
     <router-view/>
   </div>
