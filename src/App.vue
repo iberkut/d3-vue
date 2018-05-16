@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">AddingSvgWithD3</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Adding Svg With D3</router-link> |
+      <router-link to="/data-joins">Data Joins</router-link>
     </div>
     <router-view/>
   </div>

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import AddingSvgWithD3 from './pages/AddingSvgWithD3.vue'
-import About from './pages/About.vue'
+import DataJoins from './pages/DataJoins.vue'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: AddingSvgWithD3
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About
+      path: '/data-joins',
+      name: 'DataJoins',
+      component: DataJoins
     }
   ]
 })
