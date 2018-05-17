@@ -13,9 +13,9 @@
 </template>
 
 <script>
-  import AddingSvg from '../components/AddingSvg'
-  import DataJoins from '../components/DataJoins'
-  import ExternalData from '../components/ExternalData'
+  import AddingSvg from '../components/getting-started/AddingSvg'
+  import DataJoins from '../components/getting-started/DataJoins'
+  import ExternalData from '../components/getting-started/ExternalData'
 
   export default {
     components: {
