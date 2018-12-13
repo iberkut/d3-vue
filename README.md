@@ -8,7 +8,7 @@
 ## Getting Started
 ```sh
 # Clone it
-git clone https://github.com/iberkut/d3-vue.git
+git clone https://github.com/yberkut/d3-vue.git
 
 # Install dependencies
 npm install
